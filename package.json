@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "pnpm dlx only-allow pnpm",
+    "dev:project1": "pnpm --filter project1 dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

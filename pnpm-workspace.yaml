@@ -1,0 +1,7 @@
+# pnpm-workspace.yaml
+
+packages: 
+  # 실행 가능/실행 가능한 애플리케이션 
+  - 'apps/*' 
+  # packages/ 및 components/의 하위 디렉터리에 있는 모든 패키지 
+  - 'packages/*'
